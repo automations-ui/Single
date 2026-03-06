@@ -1,138 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ADECON 2026 – Registration</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Arial, sans-serif; background: #f5f5f5; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADECON 2026 – Registration</title>
 
- img.full-width {
-  width: 100%;
-  max-height: 200px;
-  object-fit:fill;
-  object-position: center;
-  display: block;
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f5f5f5;
 }
 
- img.footer {
-  width: 100%;
-  max-height: 150px;
-  object-fit: fill;
-  display: block;
-  margin: 0 auto;
+.full-width{
+width:100%;
+max-height:200px;
+object-fit:fill;
+display:block;
 }
-    img.header-img { max-width: 600px; width: 80%; display: block; margin: 20px auto; }
-    img.header-img { max-height: 280px; width: 100%; object-fit: cover; object-position: center top; }
 
-    .cards-section {
-      padding: 40px 20px;
-      text-align: center;
-    }
+.footer{
+width:100%;
+max-height:150px;
+object-fit:contain;
+display:block;
+margin:auto;
+}
 
-    h2 {
-      font-size: 1.6rem;
-      margin-bottom: 30px;
-      color: #1a2e6e;
-    }
+.cards-wrapper{
+padding:40px 20px;
+text-align:center;
+}
 
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+max-width:950px;
+margin:auto;
+}
 
-    .card {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 30px 24px;
-      width: 200px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
+.card{
+background:#fff;
+border:1px solid #ddd;
+border-radius:10px;
+padding:28px 22px;
+width:210px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
 
-    .card h3 {
-      font-size: 1rem;
-      color: #1a2e6e;
-      margin-bottom: 8px;
-    }
+display:flex;
+flex-direction:column;
+align-items:center;
+}
 
-    .card .note {
-      font-size: 0.75rem;
-      color: #888;
-      margin-bottom: 12px;
-      min-height: 18px;
-    }
+.card h3{
+font-size:16px;
+color:#1a2e6e;
+margin:0 0 10px;
+min-height:40px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
 
-    .card .price {
-      font-size: 1.6rem;
-      font-weight: bold;
-      color: #e8621a;
-    }
+.note{
+font-size:12px;
+color:#888;
+min-height:32px;
+margin-bottom:8px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
 
-    .card a {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 8px 20px;
-      background: #1a2e6e;
-      color: #fff;
-      border-radius: 20px;
-      text-decoration: none;
-      font-size: 0.85rem;
-    }
-  </style>
+.price{
+font-size:26px;
+font-weight:bold;
+color:#e8621a;
+margin-bottom:18px;
+}
+
+.card a{
+margin-top:auto;
+display:inline-block;
+padding:10px 28px;
+background:#1a2e6e;
+color:#fff;
+border-radius:22px;
+text-decoration:none;
+font-size:14px;
+}
+
+.header-text h1{
+font-size:32px;
+font-weight:800;
+color:#1a237e;
+margin:0;
+}
+
+.header-text h2{
+font-size:18px;
+color:#333;
+margin:4px 0;
+}
+
+.header-text p{
+color:#555;
+margin:0;
+}
+
+</style>
 </head>
+
 <body>
 
-  <img class="full-width" src="https://s3.ap-south-1.amazonaws.com/cdn2.onference.in/testepisodethumbnail/header.png"/>
+<img class="full-width"
+src="https://s3.ap-south-1.amazonaws.com/cdn2.onference.in/testepisodethumbnail/ADECON+Registration+Banner+Header.png">
 
-  <div class="cards-section">
-    
-<div style="text-align:center; margin: 20px 0 10px; font-family: Arial, sans-serif;">
-  <h1 style="font-size: 2em; font-weight: 800; color: #1a237e; margin: 0 0 4px;">ADECON 2026</h1>
-  <h2 style="font-size: 1.2em; font-weight: 600; color: #333; margin: 0 0 6px;">11th ADE Annual National Conference</h2>
-  <p style="font-size: 1em; color: #555; margin: 0;">28-29th February 2026 | Virtual</p>
+<div class="cards-wrapper">
+
+<div class="header-text">
+<h1>ADECON 2026</h1>
+<h2>11th ADE Annual National Conference</h2>
+<p>28-29th March 2026 | Virtual</p>
 </div>
-<h2>Register Now</h2>
-    <div class="cards">
 
-      <div class="card">
-        <h3>ADE / NSI Members</h3>
-        <div class="note"></div>
-        <div class="price">Rs. 600</div>
-        <a href="https://www.onference.in/c/adecon-2026-member/6794" target="_blank">Register</a>
-      </div>
+<h2 style="color:#1a2e6e;margin:30px 0;">Register Now</h2>
 
-      <div class="card">
-        <h3>Non-member</h3>
-        <div class="note"></div>
-        <div class="price">Rs. 800</div>
-        <a href="https://www.onference.in/c/adecon-2026-non-member/6795" target="_blank">Register</a>
-      </div>
+<div class="cards">
 
-      <div class="card">
-        <h3>Students</h3>
-        <div class="note">Current college ID card mandatory</div>
-        <div class="price">Rs. 350</div>
-        <a href="https://www.onference.in/c/adecon-2026-student/6796" target="_blank">Register</a>
-      </div>
+<div class="card">
+<h3>ADE / NSI Members</h3>
+<div class="note"></div>
+<div class="price">Rs. 600</div>
+<a href="https://www.onference.in/c/adecon-2026-member/6794" target="_blank">Register</a>
+</div>
 
-      <div class="card">
-        <h3>Corporates / Doctors</h3>
-        <div class="note"></div>
-        <div class="price">Rs. 1000</div>
-        <a href="https://www.onference.in/c/adecon-2026-corporatesundefineddoctors/6797" target="_blank">Register</a>
-      </div>
+<div class="card">
+<h3>Non-member</h3>
+<div class="note"></div>
+<div class="price">Rs. 800</div>
+<a href="https://www.onference.in/c/adecon-2026-non-member/6795" target="_blank">Register</a>
+</div>
 
-    </div>
-  </div>
+<div class="card">
+<h3>Students</h3>
+<div class="note">Current college ID card mandatory</div>
+<div class="price">Rs. 350</div>
+<a href="https://www.onference.in/c/adecon-2026-student/6796" target="_blank">Register</a>
+</div>
 
-  <img class="footer" src="https://s3.ap-south-1.amazonaws.com/cdn2.onference.in/testepisodethumbnail/footer.png"/>
+<div class="card">
+<h3>Corporates / Doctors</h3>
+<div class="note"></div>
+<div class="price">Rs. 1000</div>
+<a href="https://www.onference.in/c/adecon-2026-corporatesundefineddoctors/6797" target="_blank">Register</a>
+</div>
+
+</div>
+
+</div>
+
+<img class="footer"
+src="https://s3.ap-south-1.amazonaws.com/cdn2.onference.in/testepisodethumbnail/ADECON+Registration+Banner+Footer.png">
 
 </body>
 </html>
